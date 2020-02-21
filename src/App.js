@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ReactComponent as Logo } from './avatar.svg';
 import './App.css';
 import './App.sass';
 
@@ -11,6 +12,7 @@ class App extends Component {
           <p className="subtitle">
             My first portfolio is coming!
           </p>
+          <Logo />
         </div>
       </section>
     );
